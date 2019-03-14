@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 void main() {
-
     for (int cont = 0; cont < 3; cont++) {
-        //Menu de opcoes
         printf("ESCOLHA O DESTINO:\n");
         printf("\t1 - Centro\n");
         printf("\t2 - Formosinha\n");
@@ -13,7 +11,6 @@ void main() {
         scanf("%d", &opcao);
     }
     while (1) {
-        //Menu de opcoes
         printf("ESCOLHA O DESTINO:\n");
         printf("\t1 - Centro\n");
         printf("\t2 - Formosinha\n");
@@ -21,7 +18,5 @@ void main() {
         printf("\t => ");
         int opcao;
         scanf("%d", &opcao);
-    }
-    
-    
+    }  
 }

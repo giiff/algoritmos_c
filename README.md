@@ -5,7 +5,7 @@ Os códigos estão organizados por aula em pastas noeadas como aulaiii, onde iii
 
 A sequência obedece a um nível gradativo de apredizado/esforço de acordo com a ementa da disciplina.
 
-## Como obter os códigos ?
+## Como obter os códigos deste repositório ?
 
 ### Primeira vez que vai baixar o repositório ?
 
@@ -20,7 +20,6 @@ git clone https://github.com/giiff/algoritmos.git
 ```console
 git pull
 ```
-
 
 ## Como instalar o compilador C/C++ em meu computador?
 
@@ -49,3 +48,36 @@ gcc meu_programa.c -o meu_executavel
 ```console
 ./meu_executavel
 ```
+
+# Gerenciando o MEU PRÓPRIO repositório
+
+## Como criar um repositório novo?
+
+![](https://github.com/giiff/algoritmos/blob/master/img/git01.png)
+
+## Primeira vez que vai baixar o repositório ?
+
+* No terminal de seu Linux, escolha e acesse a pasta de trabalho e digite/cole:
+```console
+https://github.com/waldeyr/meurepositorio.git
+```
+
+## Já tem o repositório na máquina e quer baixar as últimas atualizações ?
+
+* No terminal de seu Linux, acesse a pasta de trabalho e digite/cole:
+```console
+git pull
+```
+
+## Como adicionar arquivos que eu alterei ou criei?
+
+`git add <arquivo.c>`
+
+## Como confirmar as alterações antes do upload?
+
+`git commit -m "Uma mensagem de amor"`
+
+## Como fazer o upload?
+
+`git push origin master`
+
